@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sun Media - Ideas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="LOGO.png" alt="Logo Sun Media">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#" class="active">Ideas</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-banner">
+            <div class="banner-background"></div>
+            <div class="banner-content">
+                <h1>Ideas</h1>
+                <p>Where all our great things begin</p>
+            </div>
+        </section>
+    </main>
+
+    <section id="list-section">
+    <div class="container">
+        <div class="list-controls">
+            <div id="showing-info">Menampilkan 1 - 10 dari 100</div>
+            <div class="control-options">
+                <div class="control-group">
+                    <label for="show-per-page">Show per page:</label>
+                    <select id="show-per-page">
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="50">50</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label for="sort-by">Sort by:</label>
+                    <select id="sort-by">
+                        <option value="desc">Terbaru</option>
+                        <option value="asc">Terlama</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div id="post-grid" class="post-grid">
+            </div>
+
+        <nav class="pagination-container" aria-label="Page navigation">
+            <ul id="pagination" class="pagination">
+                </ul>
+        </nav>
+    </div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
